@@ -2,26 +2,31 @@
     list-style: none;
         
     }
-.navbar{
-    
-width: 1250px;
-height: 100px;
-position: fixed;
-display:flex;
-background-color: antiquewhite;
-justify-content: space-between;
-
-}   
-
 .navbar-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: antiquewhite;
+        padding: 0 20px; /* Add some space on the sides */
+}
+    
+.navbar {
+        width: 100%;
+        max-width: 1250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+    
+.nav {
+        display: flex;
+        align-items: center;
+}
+    
+.nav .top {
+        margin: 0 10px; /* Add some space between items */
 }
 
-header{
-align-items: center;
-} 
+
 .input{
  display: flex;
 justify-content: center;
