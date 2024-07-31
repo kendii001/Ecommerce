@@ -12,6 +12,13 @@ background-color: antiquewhite;
 justify-content: space-between;
 
 }   
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 header{
 align-items: center;
 } 
