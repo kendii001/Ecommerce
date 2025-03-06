@@ -1,0 +1,151 @@
+
+    .text{
+        display:inline-block;
+        justify-content: right;
+        padding-right: 50px;
+        font-size: 2rem;
+        font-family: Arial, sans-serif,monospace;
+    }
+    h3{
+        font-family: monospace;
+    }
+    #image{
+        padding-bottom:50px;
+        height: 250px;
+        width:250px;
+    }
+    .container{
+        background-color: white;
+        display:inline-block;
+        flex-direction: left;
+        padding-left: 0px;
+    }
+.textcontent{
+        font-weight: bold;
+        font-family: Arial, sans-serif,monospace;
+    }
+    .star{
+        color: darkorange;
+    }
+
+    #image{
+        border: 10px;
+        
+        height: 250px;
+        width:250px;
+    }
+    /* #image.discount{
+        position:absolute ;
+        top: 5px; /* Adjus t the position from the top */
+        /* right: 10px; /* Adjust the position from the right */
+        /* align-self: auto;
+        width:22px;
+        height: 15px;
+        background-color: darkorange; */
+     */ */
+    .nprice{
+        color: black;
+        font-size:20px;
+        font-weight: bold;
+        text-align: center;
+        display: inline-block;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    
+    .discount{
+        
+        position:absolute ;
+         top:165px;
+         left: 235px;
+        
+       /* right: 10px; Adjust the position from the right */
+        align-self: auto;
+        width:22px;
+        
+        height: 15px;
+        background-color: darkorange;
+    } 
+    
+    
+    p{
+        font-family: monospace;
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #products{
+        display:flex;
+        justify-content:space-evenly;
+        flex-direction: row;
+        
+        
+    
+    }
+    .web{
+        display: inline-flex;
+    }
+    .word{
+        display: flex;
+        flex-direction: column;
+    }
+   /* .web{
+    display: flex;
+   }
+   #web{
+    display: inline-table;
+   } */
+    /* 
+    
+    .container img {
+        display: block; 
+        margin: 0 auto; 
+    } */
+    #products img{
+        display: block;
+        
+        
+    }
+   
+    #products p {
+        margin: 1.5px 0 0; 
+    }
+    #text{
+        gap:10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        text-align: center;
+        font-family: monospace,sans-serif;
+        
+        color: white;
+        font-size: 2rem;
+     }
+     #caption{
+        display:flex;
+        flex-direction: column;
+    }
+    .price{
+    text-decoration: line-through;
+    color: black;
+    display: inline-block;
+    flex-direction: column;
+        
+    }
+    /* .container:hover{
+    border: 2px solid black; 
+    border-radius:20px;
+    transition: 2s;
+    } */
+     .product{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+        font-family: monospace,sans-serif;
+     }
+     
